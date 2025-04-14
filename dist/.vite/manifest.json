@@ -1,0 +1,8 @@
+{
+  "src/main.tsx": {
+    "file": "react-lib.umd.js",
+    "name": "react-main",
+    "src": "src/main.tsx",
+    "isEntry": true
+  }
+}
