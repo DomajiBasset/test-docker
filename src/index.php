@@ -34,23 +34,17 @@ $html .= '<div class="area"><div>*合約日期</div></div>
                       <input type="text" class="date_picker" value="" data-min_day="109/01/01" data-max_day="109/12/31" data-show_del_icon="false">
                   </span> -->
                   <!-- <span class="range_group_calendar">
-                                    <span class="stander_calendar">
-                                        <input type="text" class="date_picker" value="" data-min_day="" data-max_day="">
-                                    </span>
-                                    <br>~<br>
-                                    <span class="stander_calendar">
-                                        <input type="text" class="date_picker" value="" data-min_day="" data-max_day=""
-                                            data-show_del_icon="false">
-                                    </span>
-                                </span> -->
+                          <span class="stander_calendar">
+                              <input type="text" class="date_picker" value="" data-min_day="" data-max_day="">
+                          </span>
+                          <br>~<br>
+                          <span class="stander_calendar">
+                              <input type="text" class="date_picker" value="" data-min_day="" data-max_day=""
+                                  data-show_del_icon="false">
+                          </span>
+                  </span> -->
               </div>
           </div>';
-
-$html .= '<div class="area"><div>*合約案號</div></div>
-          <div class="area col2"><div><input type="text" /></div></div>';
-
-$html .= '<div class="area"><div>*名稱</div></div>
-          <div class="area col2"><div><input type="text" style="width: 100%" /></div></div>';
 
 $html .= '<div class="area"><div>*維護群組</div></div>
           <div class="area col2">
@@ -71,18 +65,18 @@ $html .= '<div class="area"><div>停用</div></div>
 $html .= '<div class="area"><div>*起訖地點</div></div>
           <div class="area">
               <div>
-                  <input type="text" size="30" value="醫策會" data-val="val1" />
+                  <input type="text" size="30" value="test" data-val="val1" />
                   &nbsp;
                   <a href="javascript: void(0)" class="icon-change-btn" data-change="val1 val2"></a>
                   &nbsp;
-                  <input type="text" size="30" value="葳橋" data-val="val2" />
+                  <input type="text" size="30" value="right" data-val="val2" />
               </div>
           </div>';
 
 //react id
-$html .= '<div class="area"><div>*起訖地點-React</div></div>
+$html .= '<div class="area"><div>*起訖-React</div></div>
           <div class="area">
-                <div id="react-app" data-type1="text" data-size1="30" data-val1="react-val" data-type2="text" data-size2="30" data-val2="葳橋2"></div>
+                <div id="react-app" data-type1="text" data-size1="30" data-val1="react-val" data-type2="text" data-size2="30" data-val2="RR"></div>
           </div>
           <div id="react-app2"></div>';
 
@@ -149,45 +143,34 @@ $html .= '<table class="data_table sort-table pick-cont">
               </thead>
               <tbody>
                   <tr>
-                    <td data-title=""><input type="checkbox" data-pick="107004(107)"></td>
-                    <td data-title="計畫編號：">107004</td>
-                    <td data-title="年　　度：">107</td>
-                    <td data-title="英文代號：" class="data-table-text-left">HA-PSY</td>
+                    <td data-title=""><input type="checkbox" data-pick="111"></td>
+                    <td data-title="計畫編號：">111</td>
+                    <td data-title="年　　度：">111</td>
+                    <td data-title="英文代號：" class="data-table-text-left">111</td>
                     <td data-title="名　　稱：" class="data-table-text-left">
-                      <div class="ellipsis" data-row="2">2018年品質教育訓練計畫</div>
+                      <div class="ellipsis" data-row="2">PLAN</div>
                     </td>
-                    <td data-title="性　　質：" class="data-table-text-left">招標-政府機關</td>
+                    <td data-title="性　　質：" class="data-table-text-left">招標</td>
                     <td data-title="執行期間：">107/06/01~107/12/31</td>
                   </tr>
                   <tr>
-                    <td data-title=""><input type="checkbox" data-pick="107001(108)"></td>
-                    <td data-title="計畫編號：">107001</td>
-                    <td data-title="年　　度：">108</td>
-                    <td data-title="英文代號：" class="data-table-text-left">PGY-HPTLST</td>
+                    <td data-title=""><input type="checkbox" data-pick="111"></td>
+                    <td data-title="計畫編號：">111</td>
+                    <td data-title="年　　度：">111</td>
+                    <td data-title="英文代號：" class="data-table-text-left">111</td>
                     <td data-title="名　　稱：" class="data-table-text-left">
-                      <div class="ellipsis" data-row="2">107成立年度「整合醫療與產業研發能量，提昇國產醫材使用率計畫(一)整合研發能量、建立國內試煉場域」</div>
+                      <div class="ellipsis" data-row="2">"TEST"</div>
                     </td>
                     <td data-title="性　　質：" class="data-table-text-left">補助</td>
                     <td data-title="執行期間：">107/01/01~108/01/01</td>
                   </tr>
                   <tr>
-                    <td data-title=""><input type="checkbox" data-pick="107001(107)"></td>
-                    <td data-title="計畫編號：">107001</td>
+                    <td data-title=""><input type="checkbox" data-pick="111"></td>
+                    <td data-title="計畫編號：">111</td>
                     <td data-title="年　　度：">107</td>
-                    <td data-title="英文代號：" class="data-table-text-left">PGY-HPTLST</td>
+                    <td data-title="英文代號：" class="data-table-text-left">111</td>
                     <td data-title="名　　稱：" class="data-table-text-left">
-                      <div class="ellipsis" data-row="2">107成立年度「整合醫療與產業研發能量，提昇國產醫材使用率計畫(一)整合研發能量、建立國內試煉場域」</div>
-                    </td>
-                    <td data-title="性　　質：" class="data-table-text-left">補助</td>
-                    <td data-title="執行期間：">107/01/01~108/01/01</td>
-                  </tr>
-                  <tr>
-                    <td data-title=""><input type="checkbox" data-pick="106010(107)"></td>
-                    <td data-title="計畫編號：">106010</td>
-                    <td data-title="年　　度：">107</td>
-                    <td data-title="英文代號：" class="data-table-text-left">QQ-P4P</td>
-                    <td data-title="名　　稱：" class="data-table-text-left">
-                      <div class="ellipsis" data-row="2">107成立年度輔導教學醫院辦理臨床醫事人員培訓計畫</div>
+                      <div class="ellipsis" data-row="2">"TEST"</div>
                     </td>
                     <td data-title="性　　質：" class="data-table-text-left">自營</td>
                     <td data-title="執行期間：">106/02/23~107/06/23</td>
