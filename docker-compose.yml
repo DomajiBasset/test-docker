@@ -7,7 +7,7 @@ services:
       context: . # 使用當前目錄中的 Dockerfile 來構建映像
     image: my-app:latest #指定建構的映象名稱，在build下會變成對指定映像建構
     ports:
-      - "3080:8080"
-    volumes:
-      - ./src:/var/www/html # 把當前目錄中的 src 目錄映射到容器中的 /var/www/html
-      - ./dist:/var/www/html/dist # 將 Vite 打包的檔案放到 /var/www/html/dist 目錄
+      - "3080:80"
+    # volumes:
+      # - ./src:/var/www/html
+      # - ./dist:/var/www/html

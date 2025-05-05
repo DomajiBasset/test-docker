@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 不 rewrite 靜態資源
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 其他全部導向 index.html（SPA fallback）
+  RewriteRule ^ index.html [QSA,L]
+</IfModule>

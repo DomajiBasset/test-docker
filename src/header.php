@@ -38,21 +38,6 @@ if (!isset($array_js_file) || !is_array($array_js_file)) {
     $array_js_file = array();
 }
 
-$array_js_file[] = './dist/framework/js/jquery.min.js';
-$array_js_file[] = './dist/framework/js/jquery-ui.min.js';
-$array_js_file[] = './dist/framework/js/scrollbar.js';
-$array_js_file[] = './dist/framework/js/select2.full.js';
-$array_js_file[] = './dist/framework/js/select2.full.js';
-$array_js_file[] = './dist/framework/js/main.js';
-$array_js_file[] = './dist/framework/js/main_rwd.js';
-
-foreach ($array_js_file as $head_js_file) {
-    if (file_exists($head_js_file)) {
-        $version_time = filemtime($head_js_file);
-        $html .= '<script type="text/javascript" src="' . $head_js_file . '?ver= ' . $version_time . '"></script>';
-    }
-}
-
 foreach ($scripts as $script) {
     $html .= '<script type="module" src="' . $script . '"></script>';
 }
